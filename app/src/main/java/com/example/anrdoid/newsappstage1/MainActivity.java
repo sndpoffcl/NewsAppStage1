@@ -27,8 +27,8 @@ public class MainActivity extends AppCompatActivity implements LoaderCallbacks<L
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        ListView newsListView = (ListView) findViewById(R.id.list_item);
-        mNoContentTextView = (TextView) findViewById(R.id.nocontent_text_view);
+        ListView newsListView = findViewById(R.id.list_item);
+        mNoContentTextView = findViewById(R.id.nocontent_text_view);
         newsListView.setEmptyView(mNoContentTextView);
         mAdapter = new NewsAdpater(this, new ArrayList<News>());
 

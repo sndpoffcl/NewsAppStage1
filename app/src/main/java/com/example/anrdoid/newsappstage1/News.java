@@ -9,12 +9,14 @@ public class News {
     private String mCategory;
     private String mDate;
     private String mUrl;
+    private String mAuthor;
 
-    public News(String mTitle, String mCategory, String mDate, String mUrl) {
+    public News(String mTitle, String mCategory, String mDate, String mUrl, String mAuthor) {
         this.mTitle = mTitle;
         this.mCategory = mCategory;
         this.mDate = mDate;
         this.mUrl = mUrl;
+        this.mAuthor = mAuthor;
     }
 
     public String getmTitle() {
@@ -33,19 +35,7 @@ public class News {
         return mUrl;
     }
 
-    public void setmTitle(String mTitle) {
-        this.mTitle = mTitle;
-    }
-
-    public void setmCategory(String mCategory) {
-        this.mCategory = mCategory;
-    }
-
-    public void setmDate(String mDate) {
-        this.mDate = mDate;
-    }
-
-    public void setmUrl(String mUrl) {
-        this.mUrl = mUrl;
+    public String getmAuthor() {
+        return mAuthor;
     }
 }
