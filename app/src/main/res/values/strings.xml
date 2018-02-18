@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">News App Stage 1</string>
+    <string name="interneterrormessages">No internet connection ! Try Again</string>
+    <string name="contneterrormessages">No news found! Try Again</string>
+</resources>
